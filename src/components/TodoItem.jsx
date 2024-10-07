@@ -35,7 +35,7 @@ const TodoItem = ({ todo }) => {
       )}
       <button
         onClick={() => deleteTodo(todo.id)}
-        className="bg-red-600 p-2 rounded-md text-teal-50"
+        className="bg-red-400 p-2 rounded-md text-teal-100"
       >
         Delete
       </button>
